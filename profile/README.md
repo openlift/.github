@@ -1,10 +1,4 @@
----
-title: Introducing OpenLift – The Open Source Fitness Tracker (Coming 2025)
-authors: [sambaker]
-tags: [OpenLift, fitness, tracker, open-source, mobile]
----
-
-# Introducing OpenLift – The Open Source Fitness Tracker (Coming 2025)
+# Introducing OpenLift – The Open Source Fitness Tracker
 
 <!--truncate-->
 
