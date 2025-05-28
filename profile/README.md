@@ -46,6 +46,7 @@ We’re planning to release in 2025, and when we do, you’ll get:
 
 Want to keep an eye on us? Here’s how:
 - [openlift.app](https://openlift.app) – Project homepage
+- [discord](https://discord.gg/SBUPVfMH47) - Discord Server
 - [Documentation](https://openlift.dev/docs/overview/introduction)
 - [Developer Portal](https://openlift.dev)
 - [GitHub Repository](https://github.com/openlift)
