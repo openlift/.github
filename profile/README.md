@@ -1,65 +1,69 @@
-# Introducing OpenLift – The Open Source Fitness Tracker
+# Hey There – We're Building Something Cool (And Open Source)
 
 <!--truncate-->
 
-We’re excited to introduce **[OpenLift](https://openlift.app)** – an open-source fitness tracker built for mobile from the ground up.
+We're the new kids on the block in the fitness app world, and honestly? We're pretty excited about what we're building.
 
-Whether you're lifting heavy, chasing endurance gains, or just starting out — OpenLift is being designed as your go-to fitness companion, with a modern mobile experience that puts you in control.
-
----
-
-## Mobile-Only by Design
-
-OpenLift is being developed as a mobile-first, mobile-only application. No web frontend, no distractions — just one streamlined mobile app with all the features you need.
-
-Our backend, built with Fastify and PostgreSQL, ensures performance, flexibility, and self-hosting options for privacy-conscious users.
+Meet **[OpenLift](https://openlift.app)** – a simple, open-source fitness tracker that we're creating from scratch. No fancy VC funding, no Silicon Valley buzzwords – just a small team trying to build something we'd actually want to use.
 
 ---
 
-## Why OpenLift?
+## What We're Up To
 
-OpenLift is different from traditional fitness apps — here's why:
+We're building OpenLift as a mobile-only fitness app. Why mobile-only? Because that's where we actually log our workouts – between sets, in the gym, when we remember we forgot to track that last set.
 
-- 100% open source: Your app, your data, your rules.
-- No subscriptions: It’ll be completely free — now and forever.
-- Self-hosting available: Want full control? Host your own OpenLift backend and own your data.
-- No shady analytics or tracking: We’re building this for fitness, not for harvesting your information.
-
-Read the [docs](https://openlift.dev/docs/overview/introduction) or visit [openlift.dev](https://openlift.dev) to learn more.
+Our backend runs on Fastify and MongoDB (yeah, we know, everyone's got opinions about databases), and we're designing everything to be self-hostable if that's your thing.
 
 ---
 
-## Coming in 2025
+## Why We Started This
 
-OpenLift is still in development — but we're making rapid progress.
+Look, there are tons of fitness apps out there. But here's what bugged us about most of them:
 
-We’re planning to release in 2025, and when we do, you’ll get:
-- A single, thoughtfully designed mobile app.
-- Smart workout tracking (weights, reps, RPE, notes).
-- Local-first privacy with optional self-hosting.
-- Optional photo uploads for progress and form tracking.
-- Insightful analytics to help you grow stronger, smarter, and faster.
+- They want your data, your money, and sometimes both
+- Half the features are locked behind paywalls
+- You never really own your workout history
+- Privacy policies that would make a lawyer cry
 
----
+So we thought, "What if we just... didn't do any of that?"
 
-## Stay in the Loop
-
-Want to keep an eye on us? Here’s how:
-- [openlift.app](https://openlift.app) – Project homepage
-- [discord](https://discord.gg/SBUPVfMH47) - Discord Server
-- [Documentation](https://openlift.dev/docs/overview/introduction)
-- [Developer Portal](https://openlift.dev)
-- [GitHub Repository](https://github.com/openlift)
-- Contact: **support@openlift.app**
-
-We’re building OpenLift in the open, and we’d love your feedback, ideas, and support as we bring it to life.
+Read more at [openlift.dev](https://openlift.dev) if you're curious.
 
 ---
 
-## One App to Rule Them All
+## We're Still Building
 
-OpenLift isn’t just another fitness app — it’s a movement.
+Full transparency: we're not done yet. We're aiming for 2025, and we're working on it nights and weekends.
 
-A mobile experience for everyone, whether you're lifting at home, training in a gym, or logging sessions out in the wild. Built for the community, by the community — and always on your terms.
+When we do launch, you'll get:
+- A straightforward mobile app for tracking workouts
+- Support for weights, reps, RPE, and notes (the stuff that actually matters)
+- Your data stays yours, period
+- Optional photo uploads for progress tracking
+- Simple analytics to help you see how you're doing
 
-Stay tuned. 2025 is going to be big.
+The core stuff will always be free if you self-host. Advanced features (we're talking about things like detailed analytics, cloud backup, or premium integrations) will be closed-source and cost a little – just enough to cover hosting, storage, and make this thing self-sustainable.
+
+---
+
+## Want to Follow Along?
+
+We're building this thing in public, so if you want to see how it goes:
+
+- [openlift.app](https://openlift.app) – Our little homepage
+- [Discord](https://discord.gg/SBUPVfMH47) – Where we hang out and chat about fitness tech
+- [Documentation](https://openlift.dev/docs/overview/introduction) – For the technically curious
+- [GitHub](https://github.com/openlift) – All our code lives here
+- Drop us a line: **support@openlift.app**
+
+We'd love to hear what you think, what features matter to you, or just chat about fitness and tech.
+
+---
+
+## Just Another Fitness App?
+
+Maybe. But it's our fitness app, and we're building it the way we think it should be built.
+
+No venture capital breathing down our necks, no growth hackers trying to maximize engagement, no dark patterns to keep you hooked. Just a simple tool for people who want to track their workouts without all the extra stuff.
+
+We'll see you in 2025. 💪
