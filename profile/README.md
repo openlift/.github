@@ -1,69 +1,85 @@
-# Hey There – We're Building Something Cool (And Open Source)
+# OpenLift — Open‑Source, Self‑Hosted Workout Tracker
 
-<!--truncate-->
-
-We're the new kids on the block in the fitness app world, and honestly? We're pretty excited about what we're building.
-
-Meet **[OpenLift](https://openlift.app)** – a simple, open-source fitness tracker that we're creating from scratch. No fancy VC funding, no Silicon Valley buzzwords – just a small team trying to build something we'd actually want to use.
+Fitness workout logger built by lifters for lifters. Privacy‑first, open‑source, and designed to feel like a modern Excel sheet for the gym: fast, structured, and distraction‑free.
 
 ---
 
-## What We're Up To
+## What We’re Building
 
-We're building OpenLift as a mobile-only fitness app. Why mobile-only? Because that's where we actually log our workouts – between sets, in the gym, when we remember we forgot to track that last set.
+OpenLift is a simple, open‑source fitness tracker designed for fast, between‑sets logging and clear progress tracking. It’s a self‑hosted workout tracker you can run yourself or use with our hosted service.
 
-Our backend runs on Fastify and MongoDB (yeah, we know, everyone's got opinions about databases), and we're designing everything to be self-hostable if that's your thing.
-
----
-
-## Why We Started This
-
-Look, there are tons of fitness apps out there. But here's what bugged us about most of them:
-
-- They want your data, your money, and sometimes both
-- Half the features are locked behind paywalls
-- You never really own your workout history
-- Privacy policies that would make a lawyer cry
-
-So we thought, "What if we just... didn't do any of that?"
-
-Read more at [openlift.dev](https://openlift.dev) if you're curious.
+- Self‑hosted, privacy‑first workout logger — your data stays yours
+- Strength training and powerlifting focused (reps, weight, RPE, notes)
+- Clean workout analytics: volume, intensity, PRs, 1RM estimates
+- Offline‑first mobile app: log full workouts without internet; auto‑sync when you’re back online
+- Excel‑like speed: quick‑add sets, copy last set, smart defaults, and sheet‑style flow on mobile
+- Workout planner: build weekly splits and session templates without the spreadsheet juggling
 
 ---
 
-## We're Still Building
+## Why Not Excel (or Paper) Anymore?
 
-Full transparency: we're not done yet. We're aiming for 2025, and we're working on it nights and weekends.
+Lots of lifters still use paper or a fitness Excel sheet because it’s fast. OpenLift keeps that “spreadsheet speed” but upgrades the experience:
 
-When we do launch, you'll get:
-- A straightforward mobile app for tracking workouts
-- Support for weights, reps, RPE, and notes (the stuff that actually matters)
-- Your data stays yours, period
-- Optional photo uploads for progress tracking
-- Simple analytics to help you see how you're doing
+- One‑tap logging with sheet‑like, row‑by‑row entry
+- Copy last set, auto‑fill weights, and smart defaults
+- PR detection, weekly volume summaries, and simple charts
+- Program templates (PPL, 5×5, DUP) and progression helpers
+- Clean history you can actually search and review on mobile
 
-The core stuff will always be free if you self-host. Advanced features (we're talking about things like detailed analytics, cloud backup, or premium integrations) will be closed-source and cost a little – just enough to cover hosting, storage, and make this thing self-sustainable.
-
----
-
-## Want to Follow Along?
-
-We're building this thing in public, so if you want to see how it goes:
-
-- [openlift.app](https://openlift.app) – Our little homepage
-- [Discord](https://discord.gg/SBUPVfMH47) – Where we hang out and chat about fitness tech
-- [Documentation](https://openlift.dev/docs/overview/introduction) – For the technically curious
-- [GitHub](https://github.com/openlift) – All our code lives here
-- Drop us a line: **support@openlift.app**
-
-We'd love to hear what you think, what features matter to you, or just chat about fitness and tech.
+If you track training in Excel, you’ll feel at home — OpenLift is the modern, mobile spreadsheet for workouts.
 
 ---
 
-## Just Another Fitness App?
+## Planner (Workout Planner)
 
-Maybe. But it's our fitness app, and we're building it the way we think it should be built.
+Plan your training week like you would in a spreadsheet — minus the manual hassle.
 
-No venture capital breathing down our necks, no growth hackers trying to maximize engagement, no dark patterns to keep you hooked. Just a simple tool for people who want to track their workouts without all the extra stuff.
+- Create weekly splits (PPL, Upper/Lower, 5×5, DUP)
+- Drag‑and‑drop sessions, reuse templates, and keep notes
+- See planned vs completed work at a glance
+- Optional reminders; always private and under your control
+- Periodization support: plan blocks (accumulation, intensification, deload, peak) and schedule them across weeks
 
-We'll see you in 2025. 💪
+---
+
+## Progression Playbook (Optional, Math Included)
+
+Not everyone wants to fiddle with formulas. The Progression Playbook suggests what to do next so you can focus on lifting:
+
+- Auto‑suggest next weights/reps based on your recent sets and RPE
+- Supports common styles: linear, double progression, rep targets, RPE‑based
+- Smart guardrails for PRs, plate jumps, and sensible deloads when progress stalls
+- Always optional — override anytime and log exactly what you did
+- Periodization‑aware: respects planned deload/peak weeks when making suggestions
+
+Set your guardrails once; OpenLift handles the math and tracking.
+
+---
+
+## Philosophy
+
+No dark patterns, no engagement tricks, no data selling. Core features remain free when you self‑host. Optional paid add‑ons (advanced analytics, cloud backup, integrations) help keep the project sustainable.
+
+---
+
+## Tech We Use
+
+- Fastify + TypeScript backend with GraphQL
+- MongoDB for storage; object storage for media
+- Built for observability, reliability, and portability (Docker‑ready)
+ - Flutter for iOS/Android mobile app
+ - Riverpod for predictable, testable state management
+ - Isar embedded database for fast, fully offline workout storage and sync
+
+---
+
+## Follow Along
+
+- Website: https://openlift.app
+- Docs: https://openlift.dev/docs/overview/introduction
+- Discord: https://discord.gg/SBUPVfMH47
+- GitHub: https://github.com/openlift
+- Email: support@openlift.app
+
+We’re building in public and aiming for our first major release in 2025. If “open‑source fitness tracker,” “workout logger,” or “self‑hosted workout tracker” speaks to you — come hang out, kick the tires, or contribute.
